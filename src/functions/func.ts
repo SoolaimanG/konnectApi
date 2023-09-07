@@ -2,6 +2,7 @@ import mongoose from "mongoose";
 import LinkModal from "../models/createLink";
 import randomstring from "randomstring";
 import { mongodbConnectionString } from "../ignore";
+import express from "express";
 
 export const checkIfLinkAlreadyExist = async (link: string) => {
   console.log(link);
@@ -38,8 +39,8 @@ export const checkIfRandomStringAlreadyExists = async (
 };
 
 export const connectDB = async (
-  req: Express.Request,
-  res: Express.Response,
+  req: express.Request,
+  res: express.Response,
   next: any
 ) => {
   try {
