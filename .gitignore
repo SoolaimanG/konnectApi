@@ -1,0 +1,8 @@
+# Ignore files in the /src/ignore directory and its subdirectories
+/src/ignore/
+
+# Ignore all files with a .log extension
+*.log
+
+# Ignore the node_modules directory
+node_modules/
