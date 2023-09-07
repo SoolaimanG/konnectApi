@@ -1,5 +1,5 @@
 # Ignore files in the /src/ignore directory and its subdirectories
-/src/ignore/
+/src/ignore.ts
 
 # Ignore all files with a .log extension
 *.log
